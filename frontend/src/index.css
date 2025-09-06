@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-blue: #0071e3;
+    --font-color: #050a0e;
+    --sunny-orange: #FAA329;
+    --soft-purple: #7F6AF9;
+    --vibrant-red: #FC3C3D;
+}
+
+
+a.active hr {
+    display: block;
+}
+
+.prate-regular {
+    font-family: "prata" serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 640px){
+    a.active{
+        background-color: black;
+        color: white;
+    }
+}
