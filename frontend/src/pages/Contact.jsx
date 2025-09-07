@@ -1,5 +1,6 @@
 import React from 'react';
-import Title from '../components/Title';
+// import Title from '../components/Title';
+import Title from "../components/Title";
 import NewsletterBox from '../components/NewsletterBox';
 import { assets } from '../assets/assets';
 
@@ -27,5 +28,6 @@ const Contact = () => {
 
     )
 }
+
 
 export default Contact
