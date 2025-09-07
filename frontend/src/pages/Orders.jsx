@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { ShopContext } from '../Context/ShopContext';
-import Title from '../components/Title';
+import Title from '../Components/Title';
 import axios from 'axios';
 
 const Orders = () => {
@@ -100,5 +100,6 @@ const Orders = () => {
     </div>
   );
 };
+
 
 export default Orders;
