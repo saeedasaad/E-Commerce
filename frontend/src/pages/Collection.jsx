@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { ShopContext } from '../Context/ShopContext';
-import ProductItems from '../components/ProductItems';
+import ProductItems from '../Components/ProductItems';
 import { assets } from '../assets/assets';
 import Title from '../Components/Title';
 
@@ -179,3 +179,4 @@ const Collection = () => {
 };
 
 export default Collection;
+
