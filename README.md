@@ -36,7 +36,7 @@ This is a full-stack mini e-commerce web application where users can browse prod
 ---
 
 ## Project Structure
-
+```text
 e-commerce-project/
 │
 ├── backend/                 # Node.js + Express backend
@@ -47,18 +47,20 @@ e-commerce-project/
 │   ├── utils/               # Utility functions (e.g., Cloudinary, Stripe)
 │   ├── server.js            # Entry point of backend
 │   ├── package.json
-│   └── .env.example         # Environment variable template
+│   └── .env                 # Environment variable template
 │
 ├── frontend/                # React frontend
 │   ├── src/
 │   │   ├── components/      # Reusable UI components (e.g., Navbar, Footer, ProductCard)
 │   │   ├── pages/           # Pages (Home, Collection, Product, Cart, Contact, Orders)
 │   │   ├── context/         # React context (e.g., ShopContext)
-│   │   ├── hooks/           # Custom hooks
 │   │   ├── App.jsx
 │   │   ├── index.jsx
+│   │   ├── index.css         # Main global CSS (Tailwind + custom styles)
 │   │   └── assets/          # Images, icons, styles
+│   └── .env                 # Environment variable template
 │   ├── package.json
+│   ├── vite.config.js       # Vite config file
 │   └── tailwind.config.js
 │
 ├── admin/                   # Admin panel frontend
@@ -67,13 +69,16 @@ e-commerce-project/
 │   │   ├── pages/           # Admin pages
 │   │   ├── App.jsx
 │   │   ├── index.jsx
+│   │   ├── index.css         # Main global CSS (Tailwind + custom styles)
 │   │   └── assets/          # Images, icons, styles
+│   └── .env                 # Environment variable template
 │   ├── package.json
+│   ├── vite.config.js       # Vite config file
 │   └── tailwind.config.js
 │
 ├── README.md                # Project documentation
 └── .gitignore               # Git ignore file
-
+````
 
 ---
 ## Notes:
