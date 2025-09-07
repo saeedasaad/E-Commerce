@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { ShopContext } from '../Context/ShopContext';
 import { assets } from '../assets/assets';
-import CartTotal from '../components/CartTotal';
+import CartTotal from '../Components/CartTotal';
 import Title from '../Components/Title';
 
 const Cart = () => {
@@ -103,3 +103,4 @@ const Cart = () => {
 };
 
 export default Cart;
+
