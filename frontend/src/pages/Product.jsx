@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { ShopContext } from '../Context/ShopContext';
-import RelatedProducts from '../components/RelatedProducts';
+import RelatedProducts from '../Components/RelatedProducts';
 import { assets } from '../assets/assets';
 
 const Product = () => {
@@ -144,5 +144,6 @@ const Product = () => {
 };
 
 export default Product;
+
 
 
