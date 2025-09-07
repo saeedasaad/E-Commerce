@@ -1,6 +1,6 @@
 import React from 'react';
-import Title from '../components/Title';
-import NewsletterBox from '../components/NewsletterBox';
+import Title from '../Components/Title';
+import NewsletterBox from '../Components/NewsletterBox';
 import { assets } from '../assets/assets';
 
 const About = () => {
@@ -44,5 +44,6 @@ const About = () => {
         </div>
     )
 }
+
 
 export default About
